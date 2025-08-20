@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This repository contains the code and experimental results for causal discovery methods applied to multiple datasets. The implemented methods include **PC, GES, Granger, VARLiNGAM, Transfer Entropy, CCM, and PCMCI**, and have been tested on both synthetic and real-world datasets.
+This repository contains the code and experimental results for causal discovery methods applied to multiple datasets. The implemented methods include **PC, GES, Granger, VARLiNGAM, Transfer Entropy, CCM, and PCMCI**.
 
 ---
 
@@ -23,7 +23,8 @@ FINAL DATA/
 ├── brownian-data-y_test.ipynb               
 ├── hmr3_traj_important_features_test.ipynb 
 ├── sim-ex_test.ipynb                        
-└── synthetic-data_test.ipynb                
+└── synthetic-data_test.ipynb    
+└── requirements.txt       
 └── README.md                      
 ```
 
@@ -51,8 +52,6 @@ This project is based on **Python 3.10+**. Key dependencies can be installed via
 
 ```bash
 git clone https://github.com/Wangxinping-gif/PHAS0077-Scientific-Computing-Individual-Research-Project-24-25.git
-
-cd FINAL DATA
 ```
 
 2. Install dependencies:
@@ -71,25 +70,26 @@ jupyter notebook
 
 * `analytic-ex1_test.ipynb` — Analytical example dataset
 * `brownian-data-y_test.ipynb` — Brownian motion datasets
-* `hmr3_traj_important_features_test.ipynb` — GPCR data
 * `synthetic-data_test.ipynb` — Synthetic datasets
+* `hmr3_traj_important_features_test.ipynb` — GPCR data
 
 ---
 
 ## Dataset Description
 
 * **analytic-ex1.dat / sim-ex1.dat / sim-ex2.dat**
-  Small-scale simulation datasets used to verify the correctness of causal discovery methods.
+  Simulation datasets used to verify the correctness of causal discovery methods.
 
 * **brownian-data-y{1,2,3}\_0.dat**
   Brownian motion datasets with delayed dependencies, used to test time-series causal discovery under noise.
 
-* **hmr3\_traj\_important\_features.npy**
-  Real GPCR trajectory feature data used for actual causal structure inference.
 
 * **synthetic-data-XX-vY.csv**
   Artificial multivariate time-series datasets (multiple versions) for systematic comparison of causal discovery methods.
 
+* **hmr3\_traj\_important\_features.npy**
+  Real GPCR trajectory feature data used for actual causal structure inference.
+  
 ---
 
 ## References and Acknowledgements
