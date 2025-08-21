@@ -15,6 +15,7 @@ FINAL DATA/
 │   ├── analytic-ex1.dat               
 │   ├── brownian-data-y{1,2,3}_0.dat   
 │   ├── hmr3_traj_important_features.npy  
+│   ├── README.md 
 │   ├── sim-ex1.dat, sim-ex2.dat        
 │   └──synthetic-data-XX-vY.csv       
 │   
@@ -42,7 +43,11 @@ This project is based on **Python 3.10+**. Key dependencies can be installed via
 * `tigramite` (PCMCI method)
 * `idtxl` (Transfer Entropy method)
 * `causal-learn` (PC, GES, LiNGAM methods)
+* `pyEDM` (Convergent Cross Mapping)
+* `tqdm` (progress bar)
 * `jupyter`
+
+```
 
 ---
 
